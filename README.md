@@ -13,6 +13,6 @@ Delphi video player interface for video (a youtube like's interface), that offer
 
 In order to demonstrate the capabilities of the interface, the VLC Pascal library (http://prog.olsztyn.pl/paslibvlc) has been used as an interface to read and stream videos. It suffer from many (many.....) bugs and problems, but unfortunately it is the unique video playing interface adapted to Delphi under Windows. I am working on a version for the Zeus64/alcino variant but it handle only Android and IOS (No windows)
 
-Remarks and bug reports are welcome.
+Remarks and bug reports are welcome. Helps and updates are too....
 
 Important remark :when compiling the demo version, use Run-without-Debug (Maj-Ctrl-F9) instead of Direct run with F9 since the VLC library with crach at a hight probability under debug mode 
