@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Advanced Video Player Demo (kamel_mh@yahoo.fr)'
+  ClientHeight = 526
+  ClientWidth = 633
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel2: TPanel
+    Align = Bottom
+    Position.Y = 400.000000000000000000
+    Size.Width = 633.000000000000000000
+    Size.Height = 126.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Bottom
+      Position.Y = 126.000000000000000000
+      Size.Width = 633.000000000000000000
+      Size.Height = 114.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Visible = False
+      Viewport.Width = 629.000000000000000000
+      Viewport.Height = 110.000000000000000000
+    end
+    object Button1: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 76.000000000000000000
+      TabOrder = 1
+      Text = 'Load File '
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Position.X = 96.000000000000000000
+      Position.Y = 76.000000000000000000
+      TabOrder = 3
+      Text = 'Load URL'
+      OnClick = Button2Click
+    end
+    object Label1: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'File name :'
+      TabOrder = 5
+    end
+    object Label2: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 42.000000000000000000
+      Text = 'URL Location :'
+      TabOrder = 4
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 7
+      Text = 
+        'https://www.appsloveworld.com/wp-content/uploads/2018/10/sample-' +
+        'mp4-video.mp4'
+      Position.X = 96.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 473.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Button3: TButton
+      Position.X = 464.000000000000000000
+      Position.Y = 76.000000000000000000
+      Size.Width = 160.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Show VLC Debug Output'
+      OnClick = Button3Click
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      Position.X = 96.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 449.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Button4: TButton
+      Position.X = 546.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 23.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = '...'
+      OnClick = Button4Click
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 304
+    Top = 248
+  end
+end

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2022/05/09 20:50:02.000.949,C:\Users\Kamel\Desktop\Draft Video\YoutubeProgressBar.pas=C:\Users\Kamel\Desktop\Draft Video\VLC\YoutubeProgressBar.pas</Transaction>
+    <Transaction>2022/05/11 12:19:40.000.014,=C:\Users\Kamel\Desktop\Draft Video\VLC\Unit1.pas</Transaction>
+    <Transaction>2022/05/11 12:20:11.000.116,C:\Users\Kamel\Desktop\Draft Video\VLC\TAdvancedVideoPlayer.pas=C:\Users\Kamel\Desktop\Draft Video\VLC\Unit1.pas</Transaction>
+    <Transaction>2022/05/11 12:20:28.000.341,C:\Users\Kamel\Desktop\Draft Video\VLC\TAdvancedVideoPlayer.pas=</Transaction>
+    <Transaction>2022/05/11 12:20:40.000.866,=C:\Users\Kamel\Desktop\Draft Video\VLC\AdvancedVideoPlayer.pas</Transaction>
+    <Transaction>2022/05/11 14:52:15.000.677,=C:\Users\Kamel\Desktop\Draft Video\VLC\Unit1.pas</Transaction>
+    <Transaction>2022/05/11 15:49:29.000.506,=C:\Users\Kamel\Desktop\Draft Video\VLC\Unit2.pas</Transaction>
+    <Transaction>2022/05/11 15:49:43.000.923,C:\Users\Kamel\Desktop\Draft Video\VLC\AdvancedVideoPlayerImages.pas=C:\Users\Kamel\Desktop\Draft Video\VLC\Unit2.pas</Transaction>
+    <Transaction>2022/06/09 13:22:01.000.156,C:\Users\Kamel\Desktop\Draft Video\VLC\FmxDemoPasLibVlcPlayer.dproj=C:\Users\Kamel\Desktop\Draft Video\VLC\AdvancedVideoPlayerDemo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
