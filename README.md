@@ -1,6 +1,6 @@
 # AdvancedVideoPlayer
 
-![alt text](http://url/to/img.png)
+![http://url/to/img.png](https://github.com/kamel78/AdvancedVideoPlayer/blob/main/DemoiImage.png)
 
 Delphi video player interface for video (a youtube like's interface), that offer the following possibilities:
 
