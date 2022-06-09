@@ -1,5 +1,7 @@
 # AdvancedVideoPlayer
 
+![alt text](http://url/to/img.png)
+
 Delphi video player interface for video (a youtube like's interface), that offer the following possibilities:
 
 - Automatic progression bar with visual effect when entering leaving the progress zone
